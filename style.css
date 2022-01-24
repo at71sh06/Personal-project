@@ -1,0 +1,171 @@
+
+body, html{
+  height:100%;
+  margin:0px;
+  font-size:15px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  /*color:#00d6ad;*/
+  color: black;
+  width: 100%;
+  overflow-x: hidden;
+
+}
+
+
+.navigation a {
+  float: left;
+  display: block;
+  color: #798ed4;
+  text-align: center;
+  overflow: hidden;
+  background-color:#3660a3;
+  width: 19%;
+  position: sticky;
+  text-decoration: none;
+
+}
+
+.navigation{
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.navigation a:hover {
+  background-color: #1c777a;
+}
+
+
+
+.landing{
+
+  background-image: url(images/car.jpg);
+  min-height:100%;
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+
+
+}
+
+
+.heading{
+
+  width: 80%;
+  text-align: center;
+  font-size: 250%;
+  word-spacing: 4px;
+  /* background-color: rgba(255,255,255,.10); */
+  padding:5px;
+  color: #3660a3;
+  margin: auto;
+  line-height: 60px;
+
+}
+
+
+.subheadings{
+
+  width: 100%;
+  /*border-left: 7px solid lightblue;*/
+  text-align: center;
+  font-size: 170%;
+  word-spacing: 2px
+  margin: 0;
+  right:80px;
+  padding: 5px;
+  /*background-color:#00d6ad;*/
+  color:#4CAF50;
+  border:
+
+}
+
+.alltext{
+
+  color: black;
+  line-height: 300%;
+  font-size: 70%;
+  text-align: left;
+
+
+}
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.85;
+}
+
+.button{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.space {
+  height: 50px;
+}
+
+.button1 {
+  background-color:black;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.85;
+}
+
+.button{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.space {
+  height: 50px;
+}
+
+.space2 {
+  height: 30px;
+}
+
+
+/*
+.oneimage{
+
+min-height: 500px;
+background-image: url(images/car2.jpg);
+
+position:relative;
+background-position:center;
+background-size:100%;
+background-repeat:no-repeat;
+background-attachment:fixed;
+
+}
+
+*/
