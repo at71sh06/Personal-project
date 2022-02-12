@@ -10,11 +10,11 @@ body, html{
   color: black;
   width: 100%;
   overflow-x: hidden;
-
+  position: relative;
 }
 
-
 .navigation a {
+  display: block;
   float: left;
   display: block;
   color: #798ed4;
@@ -57,7 +57,7 @@ body, html{
   background-size:cover;
   background-repeat:no-repeat;
   background-attachment:fixed;
-
+  display: block;
 
 }
 
@@ -73,7 +73,7 @@ body, html{
   color: #3660a3;
   margin: auto;
   line-height: 60px;
-
+  display: block;
 }
 
 
@@ -90,6 +90,7 @@ body, html{
   /*background-color:#00d6ad;*/
   color:#4CAF50;
   border:
+  display: block;
 
 }
 
