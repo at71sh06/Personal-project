@@ -13,6 +13,24 @@ body, html{
   position: relative;
 }
 
+.table {
+
+  border-collapse: separate;
+  width: 100%;
+  text-align: left;
+  padding: 10%;
+  background-color: #dddddd;
+  margin: auto;
+
+}
+
+th,td {
+      width: 150px;
+      text-align: center;
+      padding: 1%;
+
+    }
+
 .navigation a {
   display: block;
   float: left;
